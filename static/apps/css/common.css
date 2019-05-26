@@ -1,0 +1,64 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.copyright {
+    bottom: 0;
+    text-align: center;
+    opacity: 0.6;
+    font-size: 12px !important;
+}
+
+.apps-small {
+    font-size: 12px !important;
+}
+
+.apps-opacity {
+    opacity: 0.6;
+}
+
+.apps-btn-red {
+    color: rgba(179, 35, 76, 0.58);
+}
+
+.apps-a-unlined a {
+    color: #000;
+    text-decoration: none;
+}
+
+.apps-a-unlined a:link {
+    color: blue;
+}
+
+.apps-a-unlined a:hover {
+    color: #b7375c;
+}
+
+.apps-a-line a:link {
+    color: blue;
+}
+
+.apps-a-line a:hover {
+    text-decoration: underline;
+    color: red;
+}
+
+.apps-a-line a:active {
+    text-decoration: blink;
+}
+
+.apps-a-line a:visited {
+    color: green;
+}
+
+.unlined {
+    text-decoration: none;
+}
+
+.whiter {
+    color: #ffffff;
+}
+
+/*# sourceMappingURL=common.css.map */

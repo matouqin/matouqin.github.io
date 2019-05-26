@@ -1,1 +1,72 @@
-关于马头琴的网站，正在上线...
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>马头琴论坛</title>
+
+  <link rel="shortcut icon" type="image/png" href=/static/bbs/image/favicon.ico>
+  <link rel="stylesheet" type="text/css" href=/static/apps/css/common.css>
+  <script type="text/javascript" src=/static/apps/js/jquery-3.3.1.min.js></script>
+
+
+  <link rel="stylesheet" type="text/css" href=/static/accounts/css/accounts.css>
+
+
+</head>
+<body>
+
+
+<div class="login-content">
+  <div class="login-card">
+    <div class="card-header"><h1>马头琴论坛</h1></div>
+    <div class="input-container">
+      <form action="/accounts/login/" method="post">
+        <input type="hidden" name="csrfmiddlewaretoken"
+               value="yW4Lu08QBDFblxleeqc9brV76TTjKanGVqjGZsJkz9fMsAClFJ3apcPz9HzK7ecQ">
+        <p>登录可评论<span class="login-error-msg">&nbsp;</span></p>
+
+        <input type="text" name="username" placeholder="用户名" maxlength="15" required id="id_username">
+        <input type="password" name="password" placeholder="密码" maxlength="30" required id="id_password">
+        <input type="hidden" name="next" value="/bbs/feedback/" id="id_next">
+
+        <div class="login-options">
+          <button type="button" class="forget-passwd">忘记密码？</button>
+          <button type="button" class="login-3rd">社交账号登录</button>
+        </div>
+        <br><br><br>
+        <button type="submit" class="btn-login">登录</button>
+      </form>
+    </div>
+    <div class="card-footer">
+      没有账号？
+      <span><a class="unlined whiter" href="/accounts/register/">注册</a></span>
+    </div>
+  </div>
+
+
+</div>
+
+
+<div class="copyright">
+
+  <br>
+  <br>
+  <br>
+  <hr>
+  <span>© 2018-现在 ZDL 版权所有</span>
+  <b>|</b>
+  <span><a href="/bbs/feedback">联系站长</a></span>
+  <br>
+  <br>
+
+</div>
+
+
+<script>
+
+
+</script>
+
+
+</body>
+</html>
