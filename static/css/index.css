@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+}
+
+body #player-wrapper {
+  height: 70vh;
+  width: 100%;
+  background-color: #262829;
+}
+
+body #player-wrapper iframe {
+  width: 60vw;
+  height: 90%;
+}
+
+/*# sourceMappingURL=index.css.map */

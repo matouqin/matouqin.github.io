@@ -1,64 +1,52 @@
 * {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
-
 .copyright {
-    bottom: 0;
-    text-align: center;
-    opacity: 0.6;
-    font-size: 12px !important;
+  bottom: 0;
+  text-align: center;
+  padding-top: 3em;
+  padding-bottom: 2em;
+  opacity: 0.6;
+  font-size: 12px !important;
 }
-
 .apps-small {
-    font-size: 12px !important;
+  font-size: 12px !important;
 }
-
 .apps-opacity {
-    opacity: 0.6;
+  opacity: 0.6;
 }
-
 .apps-btn-red {
-    color: rgba(179, 35, 76, 0.58);
+  color: rgba(179, 35, 76, 0.58);
 }
-
 .apps-a-unlined a {
-    color: #000;
-    text-decoration: none;
+  color: #000;
+  text-decoration: none;
 }
-
 .apps-a-unlined a:link {
-    color: blue;
+  color: blue;
 }
-
 .apps-a-unlined a:hover {
-    color: #b7375c;
+  color: #b7375c;
 }
-
 .apps-a-line a:link {
-    color: blue;
+  color: blue;
 }
-
 .apps-a-line a:hover {
-    text-decoration: underline;
-    color: red;
+  text-decoration: underline;
+  color: red;
 }
-
 .apps-a-line a:active {
-    text-decoration: blink;
+  text-decoration: blink;
 }
-
 .apps-a-line a:visited {
-    color: green;
+  color: green;
 }
-
 .unlined {
-    text-decoration: none;
+  text-decoration: none;
 }
-
 .whiter {
-    color: #ffffff;
+  color: #ffffff;
 }
-
 /*# sourceMappingURL=common.css.map */
